@@ -1,0 +1,74 @@
+@use '../../style/colors.module' as *;
+
+.mainBLock {
+  position: absolute;
+  transform: translate(-50%, -55%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+}
+
+.contentBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.todoTitle {
+  margin-bottom: 10px;
+}
+
+.dateStyle {
+  padding: 2px;
+  color: $light-gray-color;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.addItemBlock {
+  margin: 10px;
+}
+
+.addItemButton {
+  background-color: $black-color;
+  color: $white-color;
+  border-radius: 50px;
+  padding: 13px 30px;
+  transition: 1s;
+
+  &:hover {
+    color: $black-color;
+    background-color: $white-color;
+    border: 1px solid $black-color;
+    transition: 0.5s;
+  }
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconPlus {
+  color: $white-color;
+  &:hover {
+    color: $black-color;
+  }
+}
+
+.addItemTitle {
+  margin-bottom: 2px;
+  margin-left: 13px;
+}
+
+.textQuestions {
+  font-size: 15px;
+  font-weight: 500;
+  width: 245px;
+  line-height: 20px;
+  color: $light-gray-color;
+  opacity: 0.6;
+}

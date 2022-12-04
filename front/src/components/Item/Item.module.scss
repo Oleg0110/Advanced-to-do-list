@@ -1,0 +1,40 @@
+@use '../../style/colors.module' as *;
+
+.mainBlock {
+  width: 100%;
+  padding: 5px 10px 5px 5px;
+  background-color: $white-color;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 2px 0px #0000006b;
+  border-radius: 5px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.verticalLine {
+  height: 30px;
+  width: 3px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.lineColorGreen {
+  background-color: $green-color;
+}
+.lineColorBlue {
+  background-color: $blue-color;
+}
+.lineColorPink {
+  background-color: $pink-color;
+}
+.lineColorYellow {
+  background-color: $yellow-color;
+}
+
+.itemName {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 500;
+}

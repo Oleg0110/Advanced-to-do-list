@@ -1,5 +1,34 @@
+@use './style/colors.module' as *;
+
 .App {
   text-align: center;
-  max-width: 100%;
+  background-color: $white-color;
+  width: 100%;
+  height: 100%;
+}
+
+.mainContainer {
+  background-color: $main-white-color;
+  width: 425px;
   margin: 0 auto;
+  height: 100vh;
+}
+
+.fixedNavbar {
+  width: inherit;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.fixedOption {
+  width: inherit;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: fixed;
 }
