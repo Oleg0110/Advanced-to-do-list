@@ -1,0 +1,59 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "item": [
+        {
+          "id": "1",
+          "text": "string"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "name": "Shopping",
+      "mark": "Green"
+    },
+    {
+      "name": "dfvdv",
+      "id": 2,
+      "mark": "Pink"
+    },
+    {
+      "name": "ddddddddddd",
+      "id": 3,
+      "mark": "Yellow"
+    },
+    {
+      "name": "rgtrg",
+      "id": 4,
+      "mark": "Green"
+    },
+    {
+      "name": "rrrrrrrrrr",
+      "id": 5,
+      "mark": "Blue"
+    },
+    {
+      "name": "fffff",
+      "id": 6
+    }
+  ],
+  "items": [
+    {
+      "name": "ccccccuka",
+      "noteId": "1",
+      "id": 2,
+      "done": false
+    },
+    {
+      "name": "ffffffffff",
+      "noteId": "1",
+      "id": 3,
+      "done": true
+    }
+  ]
+}

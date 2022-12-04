@@ -1,0 +1,17 @@
+@use '../../style/colors.module' as *;
+
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconPlus {
+  background-color: inherit;
+  color: $yellow-color;
+}
+
+.navIcon {
+  color: $black-color;
+}

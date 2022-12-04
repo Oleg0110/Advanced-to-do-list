@@ -1,0 +1,76 @@
+@use '../../style/colors.module' as *;
+
+.backFon {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(137, 137, 137, 0.4);
+  backdrop-filter: blur(1px);
+  display: none;
+}
+
+.opened {
+  display: block;
+  z-index: 1;
+}
+
+.mainBlock {
+  position: absolute;
+  transform: translate(-50%, -55%);
+  top: 50%;
+  left: 50%;
+  width: 340px;
+  z-index: 2;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.content {
+  height: 140px;
+  background-color: $white-color;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.inputsBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.inputTextBlock {
+  position: relative;
+}
+
+.resetButton {
+  position: absolute;
+  top: 7px;
+  right: 12px;
+}
+
+.inputText {
+  padding: 5px 35px 5px 5px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid;
+}
+
+.submitInput {
+  background-color: $black-color;
+  color: $white-color;
+  border-radius: 50px;
+  padding: 4px 20px;
+  transition: 1s;
+
+  &:hover {
+    color: $black-color;
+    background-color: $white-color;
+    border: 1px solid $black-color;
+    transition: 0.5s;
+  }
+}
